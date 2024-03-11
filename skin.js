@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.9/20024
 // Filename: ???? ??? ??.ggsk
-// Generated 2024-03-11T12:12:17
+// Generated 2024-03-11T14:41:05
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_roomchoice', 2, false, { ignoreInState: 0  });
@@ -8695,7 +8695,7 @@ function pano2vrSkin(player,base) {
 		}
 		me.__74a.logicBlock_position();
 		me.__74a.onclick=function (e) {
-			player.openUrl("https:\/\/superb-kheer-b84f8e.netlify.app","_self");
+			player.openUrl("https:\/\/elaborate-dango-7ef3a2.netlify.app","_self");
 		}
 		me.__74a.ggUpdatePosition=function (useTransition) {
 		}
@@ -9031,7 +9031,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._d_type.logicBlock_backgroundcolor();
 		me._d_type.onclick=function (e) {
-			player.openUrl("https:\/\/magical-kitsune-263021.netlify.app","_self");
+			player.openUrl("https:\/\/sparkly-bavarois-aaee52.netlify.app","_self");
 		}
 		me._d_type.onmouseover=function (e) {
 			me.elementMouseOver['d_type']=true;
@@ -9147,7 +9147,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._c_type.logicBlock_backgroundcolor();
 		me._c_type.onclick=function (e) {
-			player.openUrl("https:\/\/symphonious-donut-c5b810.netlify.app\/","_self");
+			player.openUrl("https:\/\/effervescent-bubblegum-d5b87c.netlify.app\n","_self");
 		}
 		me._c_type.onmouseover=function (e) {
 			me.elementMouseOver['c_type']=true;
@@ -9263,7 +9263,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._b_type.logicBlock_backgroundcolor();
 		me._b_type.onclick=function (e) {
-			player.openUrl("https:\/\/luminous-starlight-0195ea.netlify.app\/","_self");
+			player.openUrl("https:\/\/classy-gecko-f72c11.netlify.app\n","_self");
 		}
 		me._b_type.onmouseover=function (e) {
 			me.elementMouseOver['b_type']=true;
@@ -9380,7 +9380,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._a_type.logicBlock_backgroundcolor();
 		me._a_type.onclick=function (e) {
-			player.openUrl("https:\/\/resilient-beignet-29b48c.netlify.app\/","_self");
+			player.openUrl("https:\/\/sparkly-snickerdoodle-e6695f.netlify.app\n","_self");
 		}
 		me._a_type.onmouseover=function (e) {
 			me.elementMouseOver['a_type']=true;
