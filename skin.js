@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.9/20024
 // Filename: ???? ??? ??.ggsk
-// Generated 2024-03-13T16:09:23
+// Generated 2024-03-14T13:04:44
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_roomchoice', 2, false, { ignoreInState: 0  });
@@ -274,7 +274,7 @@ function pano2vrSkin(player,base) {
 		hs+='overflow-y : visible;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
-		hs+='width : 383px;';
+		hs+='width : 607px;';
 		hs+="";
 		els.setAttribute('style',hs);
 		me._scrollarea_1.ggScrollByX = function(diffX) {
@@ -414,12 +414,12 @@ function pano2vrSkin(player,base) {
 		}
 		elHorScrollBg = me._scrollarea_1__horScrollBg = document.createElement('div');
 		el.appendChild(elHorScrollBg);
-		elHorScrollBg.setAttribute('style', 'position: absolute; left: 0px; bottom: 0px; visibility: hidden; width: 384px; height: 0px; background-color: rgba(128,128,128,1); pointer-events: auto;');
+		elHorScrollBg.setAttribute('style', 'position: absolute; left: 0px; bottom: 0px; visibility: hidden; width: 608px; height: 0px; background-color: rgba(128,128,128,1); pointer-events: auto;');
 		elHorScrollBg.className='ggskin ggskin_scrollarea_hscrollbg';
 		elHorScrollFg = me._scrollarea_1__horScrollFg = document.createElement('div');
 		elHorScrollBg.appendChild(elHorScrollFg);
 		elHorScrollFg.className='ggskin ggskin_scrollarea_hscrollfg';
-		elHorScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 384px; height: 0px; background-color: rgba(192,192,192,1); pointer-events: auto;');
+		elHorScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 608px; height: 0px; background-color: rgba(192,192,192,1); pointer-events: auto;');
 		me._scrollarea_1.ggScrollPosX = 0;
 		me._scrollarea_1.ggScrollPosXPercent = 0.0;
 		elHorScrollFg.onmousedown = function(e) {
@@ -517,6 +517,7 @@ function pano2vrSkin(player,base) {
 		elCornerBg.setAttribute('style', 'position: absolute; right: 0px; bottom: 0px; visibility: hidden; width: 0px; height: 0px; background-color: rgba(255,255,255,1);');
 		elCornerBg.className='ggskin ggskin_scrollarea_scrollcorner';
 		el.ggId="Scrollarea 1";
+		el.ggDx=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_scrollarea ";
@@ -524,12 +525,12 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='border : 0px solid #000000;';
 		hs+='height : 200px;';
+		hs+='left : calc(50% - ((95% + 0px) / 2) + 0%);';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
-		hs+='right : 5%;';
 		hs+='top : -260%;';
 		hs+='visibility : inherit;';
-		hs+='width : 60%;';
+		hs+='width : 95%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -558,13 +559,13 @@ function pano2vrSkin(player,base) {
 			}
 			if (me._scrollarea_1.ggCurrentLogicStatePosition != newLogicStatePosition) {
 				me._scrollarea_1.ggCurrentLogicStatePosition = newLogicStatePosition;
-				me._scrollarea_1.style.transition='right 0s, top 0s, width 0s, height 0s';
+				me._scrollarea_1.style.transition='left 0s, top 0s, width 0s, height 0s';
 				if (me._scrollarea_1.ggCurrentLogicStatePosition == 0) {
-					me._scrollarea_1.style.right='0%';
+					me._scrollarea_1.style.left = 'calc(50% - (95% / 2))';
 					me._scrollarea_1.style.top='-203%';
 				}
 				else {
-					me._scrollarea_1.style.right='5%';
+					me._scrollarea_1.style.left='calc(50% - ((95% + 0px) / 2) + 0%)';
 					me._scrollarea_1.style.top='-260%';
 				}
 			}
@@ -583,15 +584,17 @@ function pano2vrSkin(player,base) {
 			}
 			if (me._scrollarea_1.ggCurrentLogicStateSize != newLogicStateSize) {
 				me._scrollarea_1.ggCurrentLogicStateSize = newLogicStateSize;
-				me._scrollarea_1.style.transition='right 0s, top 0s, width 0s, height 0s';
+				me._scrollarea_1.style.transition='left 0s, top 0s, width 0s, height 0s';
 				if (me._scrollarea_1.ggCurrentLogicStateSize == 0) {
 					me._scrollarea_1.style.width='95%';
 					me._scrollarea_1.style.height='200px';
+					me._scrollarea_1.style.left = 'calc(50% - (95% / 2))';
 					skin.updateSize(me._scrollarea_1);
 				}
 				else {
-					me._scrollarea_1.style.width='60%';
+					me._scrollarea_1.style.width='95%';
 					me._scrollarea_1.style.height='200px';
+					me._scrollarea_1.style.left = 'calc(50% - (95% / 2))';
 					skin.updateSize(me._scrollarea_1);
 				}
 			}
